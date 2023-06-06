@@ -13,4 +13,10 @@ public class controller {
     {
         return "Hello WORLD OF DEVOPS";
     }
+
+    @GetMapping("/Universe")
+    public String g()
+    {
+        return "Hello Universe OF DEVOPS";
+    }
 }
