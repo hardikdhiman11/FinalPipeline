@@ -11,7 +11,7 @@ public class controller {
     @GetMapping("/World")
     public String get()
     {
-        return "Hello WORLD ";
+        return "Hello  ";
     }
 
     @GetMapping("/Universe")
