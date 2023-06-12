@@ -17,6 +17,6 @@ public class controller {
     @GetMapping("/Universe")
     public String g()
     {
-        return "Hello Universe OF DEVOPS";
+        return "Hello Universe ";
     }
 }
