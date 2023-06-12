@@ -15,6 +15,6 @@ sleep 10
 
 # Start the new JAR file
 echo "Starting the new JAR file..."
-java -jar /actions-runner/_work/FinalPipeline/FinalPipeline/target/spring-boot-my-springboot-app.jar &
+java -jar /home/ubuntu/actions-runner/_work/FinalPipeline/FinalPipeline/target/spring-boot-my-springboot-app.jar &
 
 echo "New JAR file started successfully."
