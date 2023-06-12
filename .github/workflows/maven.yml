@@ -34,7 +34,7 @@ jobs:
     #Script to stop and rerun jar file
     - name: Stop and start JAR file
       run: |
-          chmod +x deploy.sh
+          chmod +r deploy.sh
           ./deploy.sh
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
