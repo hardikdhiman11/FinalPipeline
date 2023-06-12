@@ -32,7 +32,7 @@ jobs:
       run: mvn -B package --file pom.xml
 
     - name: Execute Jar file
-      run: sudo kill -9 `sudo lsof -t -i:9191 & sudo java -jar /home/ubuntu/actions-runner/_work/FinalPipeline/FinalPipeline/target/spring-boot-my-springboot-app.jar &
+      run: sudo kill -9 `sudo lsof -t -i:9191` & sudo java -jar /home/ubuntu/actions-runner/_work/FinalPipeline/FinalPipeline/target/spring-boot-my-springboot-app.jar &
 
       # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
