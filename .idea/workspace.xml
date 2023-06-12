@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0587016b-73c1-468f-90a5-6bcf563dd603" name="Changes" comment="New change in controller">
-      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0587016b-73c1-468f-90a5-6bcf563dd603" name="Changes" comment="Hello to Hi" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,7 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686549964335</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Automating jar file stop and run using script.">
+      <created>1686551388276</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686551388276</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Hello to Hi">
+      <created>1686551554795</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686551554795</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -130,6 +140,8 @@
     <MESSAGE value="new changes" />
     <MESSAGE value="Some change in controller" />
     <MESSAGE value="New change in controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="New change in controller" />
+    <MESSAGE value="Automating jar file stop and run using script." />
+    <MESSAGE value="Hello to Hi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hello to Hi" />
   </component>
 </project>

@@ -11,7 +11,7 @@ else
 fi
 
 # Wait for the process to stop
-sleep 5
+sleep 10
 
 # Start the new JAR file
 echo "Starting the new JAR file..."
