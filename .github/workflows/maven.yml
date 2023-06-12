@@ -54,5 +54,5 @@ jobs:
         #Starting updated jar file
     - name: Start new JAR file on EC2
       run: |
-       ssh -o StrictHostKeyChecking=no ubuntu@43.204.97.248 'cd /home/ubuntu/actions-runner/_work/FinalPipeline/FinalPipeline/target && java -jar spring-boot-my-springboot-app.jar'
+       ssh -o StrictHostKeyChecking=no ubuntu@43.204.97.248 'cd /home/ubuntu/actions-runner/_work/FinalPipeline/FinalPipeline/target && java -jar spring-boot-my-springboot-app.jar &'
 
